@@ -11,7 +11,7 @@ DESCRIPTION >
 
 SQL >
 
-    with (now() - interval 30 minute) as start
+    with (now() - interval 25 minute) as start
     select addMinutes(toStartOfMinute(start), number) as t
     from (
       select arrayJoin(range(1, 31)) as number
