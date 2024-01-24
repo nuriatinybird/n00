@@ -1,0 +1,8 @@
+TOKEN "untitled_pipe_4859_endpoint_read_8415" READ
+
+NODE untitled_pipe_4859_0
+SQL >
+
+    SELECT * FROM analytics_sources_mv
+
+
